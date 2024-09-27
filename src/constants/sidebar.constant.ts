@@ -1,6 +1,6 @@
-import { ISidebars } from "@/interface/sidebar.interface";
+import { ISidebar } from "@/interface/sidebar.interface";
 
-export const sidebars: ISidebars[] = [
+export const sidebarList: ISidebar[] = [
   {
     key: "Dashboard",
     label: "/icons/dashboard.png",
@@ -30,8 +30,8 @@ export const sidebars: ISidebars[] = [
     label: "/icons/model.png",
   },
   {
-    key: "Add Parts",
-    label: "/icons/add.png",
+    key: "Category/ Manufacturer",
+    label: "/icons/list.png",
   },
   {
     key: "Add Parts",

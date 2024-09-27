@@ -4,7 +4,7 @@ import React from "react";
 
 const Sidebar = () => {
   return (
-    <div className="min-w-[16.4375rem]">
+    <div className="min-w-[16.4375rem] mb-10">
       {/* logo box  */}
       <div className="flex justify-center mx-auto ">
         <div>
@@ -19,6 +19,15 @@ const Sidebar = () => {
       </div>
       {/* lists  */}
       <Lists />
+      {/* horizontal line bar  */}
+      <div className="border-b-2 ml-8 mt-8 mb-4 border-[#383F4A] my-4"></div>
+      {/* settings  */}
+      <div
+        className={`pl-[3.25rem] flex items-center mr-2  gap-5   py-4 cursor-pointer`}
+      >
+        <Image src={"/icons/settings.png"} width={20} height={20} alt="Icon" />
+        <span className="text-white ">Settings</span>
+      </div>
     </div>
   );
 };

@@ -12,11 +12,11 @@ const DashboardLayout = ({
     <>
       <div className="flex ">
         {/* left sidebar ==================> */}
-        <div className="hidden lg:flex bg-[#030A1A] w-[20%]">
+        <div className="hidden lg:flex bg-[#030A1A] w-[22%]">
           <Sidebar />
         </div>
         {/* main content ==================> */}
-        <div className=" bg-[#FDFDFD] w-full lg:w-[80%]">
+        <div className=" bg-[#FDFDFD] w-full lg:w-[78%]">
           <MainContentLayout>{children}</MainContentLayout>
         </div>
       </div>
