@@ -10,3 +10,10 @@
     color: #3062f9;
   }
 }
+.main_container {
+  max-width: 84.9375rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: aqua;
+  min-height: 100vh;
+}

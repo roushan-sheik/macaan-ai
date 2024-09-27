@@ -1,4 +1,4 @@
-import ContentLayout from "@/components/dahboard/main/ContentLayout";
+import MainContentLayout from "@/components/dahboard/main/Layout";
 import React from "react";
 
 const DashboardLayout = ({
@@ -14,7 +14,7 @@ const DashboardLayout = ({
         <div className="bg-[#030A1A] w-[20%]"></div>
         {/* main content ==================> */}
         <div className=" bg-[#FDFDFD] w-[80%]">
-          <ContentLayout>{children}</ContentLayout>
+          <MainContentLayout>{children}</MainContentLayout>
         </div>
       </div>
     </>
