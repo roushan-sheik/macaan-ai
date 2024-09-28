@@ -1,4 +1,4 @@
 export interface ISidebar {
   key: string;
-  label: any;
+  label: string;
 }

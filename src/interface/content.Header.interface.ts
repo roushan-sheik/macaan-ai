@@ -1,4 +1,4 @@
 export interface IContentHeader {
   title: string;
-  label: any;
+  label: string;
 }
