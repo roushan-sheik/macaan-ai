@@ -2,7 +2,11 @@
 import React from "react";
 
 const ReplayMessageForm = () => {
-  return <div>ReplayMessageForm</div>;
+  return (
+    <>
+      <form action=""></form>
+    </>
+  );
 };
 
 export default ReplayMessageForm;

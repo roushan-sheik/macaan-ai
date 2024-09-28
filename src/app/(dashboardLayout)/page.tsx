@@ -1,3 +1,4 @@
+import Container from "@/components/Container";
 import Message from "@/components/UI/dashboard/main/Message";
 import ReplayMessageForm from "@/components/UI/dashboard/main/ReplayMessageForm";
 
@@ -5,7 +6,7 @@ import React from "react";
 
 const HomePage = () => {
   return (
-    <div className="bg-[#FFFFFF] drp_shadow  mr-5 mt-5 py-4 ml-10 rounded-[.625rem]">
+    <div className="bg-[#FFFFFF] drp_shadow w-full   mt-5 py-4  rounded-[.625rem]">
       {/* profile content container */}
       <div className="flex px-8 items-center gap-4">
         {/* avatar box */}
