@@ -6,7 +6,7 @@ import React from "react";
 
 const HomePage = () => {
   return (
-    <div className="bg-[#FFFFFF] drp_shadow w-full   mt-5 py-4  rounded-[.625rem]">
+    <div className="bg-[#FAFAFA] drp_shadow w-full    mt-5 py-4  rounded-[.625rem]">
       {/* profile content container */}
       <div className="flex px-8 items-center gap-4">
         {/* avatar box */}
