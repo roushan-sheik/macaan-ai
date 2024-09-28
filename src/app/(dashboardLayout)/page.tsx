@@ -6,9 +6,9 @@ import React from "react";
 
 const HomePage = () => {
   return (
-    <div className="bg-[#FAFAFA] drp_shadow w-full    mt-5 py-4  rounded-[.625rem]">
+    <div className=" drp_shadow w-full    mt-5 py-4  rounded-[.625rem]">
       {/* profile content container */}
-      <div className="flex px-8 items-center gap-4">
+      <div className="flex px-8 bg-[#FAFAFA] items-center gap-4">
         {/* avatar box */}
         <div className=" flex justify-center items-center rounded-full size-[3.4375rem] bg-[#F2F5FB] text-[#B3B3B3] text-lg font-medium">
           MN

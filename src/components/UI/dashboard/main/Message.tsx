@@ -3,7 +3,7 @@ import React from "react";
 
 const Message = () => {
   return (
-    <div className="px-2 py-4">
+    <div className="px-3 py-4 bg-[#FAFAFA] border-[#E2E2E2] border-[1px] rounded-xl mt-4">
       {/* header content  */}
       <p className="text-[#050D1F]">
         Agent at Mar 28, 2024 <br />
