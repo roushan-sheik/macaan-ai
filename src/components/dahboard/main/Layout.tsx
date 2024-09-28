@@ -1,13 +1,20 @@
 import React, { ReactNode } from "react";
-import RightSidebar from "./RightSidebar";
-import Navbar from "./Navbar";
+import RightSidebar from "../sidebar/RightSidebar";
+
 import ContentHeader from "@/components/UI/dashboard/main/ContentHeader";
+import DesktopNav from "@/components/UI/dashboard/main/navbar/DesktopNav";
+import MobileNav from "@/components/UI/dashboard/main/navbar/MobileNav";
 
 const MainContentLayout = ({ children }: { children: ReactNode }) => {
   return (
     <>
       {/* ==============> navbar <============== */}
-      <Navbar />
+      <div className="hidden lg:flex">
+        <DesktopNav />
+      </div>
+      <div className="flex lg:hidden">
+        <MobileNav />
+      </div>
       {/* content header  */}
       <ContentHeader />
 

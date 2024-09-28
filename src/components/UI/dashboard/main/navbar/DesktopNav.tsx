@@ -1,9 +1,9 @@
-import Image from "next/image";
 import React from "react";
+import Image from "next/image";
 
-const Navbar = () => {
+const DesktopNav = () => {
   return (
-    <div className="bg-[#FFFFFF] shadow-lg flex justify-between items-center h-[4.75rem]  ">
+    <div className="bg-[#FFFFFF] w-full shadow-lg flex justify-between items-center h-[4.75rem]  ">
       {/* customer support dropdown container */}
       <div>
         <div className="flex ml-8 cursor-pointer justify-between items-center bg-[#E3ECFF] border-2  h-[38px] px-3 border-[#BBCCFF] rounded-md bg-[##E3ECFF] w-[12.75rem]   ">
@@ -37,7 +37,7 @@ const Navbar = () => {
           />
         </div>
         {/* item 3  */}
-        <div className="flex justify-center size-[2.75rem] overflow-hidden  items-cente rounded-full  ">
+        <div className="flex justify-center cursor-pointer size-[2.75rem] overflow-hidden  items-cente rounded-full  ">
           <Image
             className="w-full h-full rounded-full object-cover"
             src={"/assets/person.JPEG"}
@@ -51,4 +51,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default DesktopNav;
