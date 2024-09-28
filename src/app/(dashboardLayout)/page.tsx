@@ -1,3 +1,6 @@
+import Message from "@/components/UI/dashboard/main/Message";
+import ReplayMessageForm from "@/components/UI/dashboard/main/ReplayMessageForm";
+
 import React from "react";
 
 const HomePage = () => {
@@ -26,8 +29,13 @@ const HomePage = () => {
       </div>
       {/* horizontal line  */}
       <div className="border-[1px] mt-4 border-[#D3D3D3]"></div>
-      {/* body content container */}
-      <div>body content</div>
+      {/* body  container ===============================> */}
+      <div className="px-8">
+        {/*  message template ========>  */}
+        <Message />
+        {/*  form ========>  */}
+        <ReplayMessageForm />
+      </div>
     </div>
   );
 };
