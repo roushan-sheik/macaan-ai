@@ -1,5 +1,6 @@
 import ArchivedQuestions from "@/components/UI/dashboard/rightSidebar/ArchivedQuestions";
 import { DocumentAnswer } from "@/components/UI/dashboard/rightSidebar/DocumentAnswer";
+import Faqs from "@/components/UI/dashboard/rightSidebar/Faqs";
 import React from "react";
 
 const RightSidebar = () => {
@@ -10,6 +11,12 @@ const RightSidebar = () => {
         <DocumentAnswer />
         {/* Archived Questions  =================> */}
         <ArchivedQuestions />
+        {/* FAQ Questions  =================> */}
+        <div className="mt-3">
+          <Faqs />
+          <Faqs />
+          <Faqs />
+        </div>
       </div>
     </>
   );

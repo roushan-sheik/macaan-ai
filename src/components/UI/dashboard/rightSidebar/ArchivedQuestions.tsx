@@ -4,7 +4,7 @@ const ArchivedQuestions = () => {
   return (
     <>
       {/* achive questions heading  */}
-      <div className="bg-[#FAFAFA] mt-2 rounded-[10px] p-3 border border-[#E2E2E2]">
+      <div className="bg-[#FAFAFA] mt-3 rounded-[10px] p-3 border border-[#E2E2E2]">
         <div className="flex justify-between items-center mb-2">
           <h3 className="text-xs font-semibold">Archived Questions</h3>
           <span className="text-[#3062F9] text-xs">88% Similar</span>
