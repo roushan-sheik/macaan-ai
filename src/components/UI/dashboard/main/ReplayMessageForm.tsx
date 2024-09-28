@@ -57,7 +57,7 @@ const ReplayMessageForm = () => {
               <CommentTempTag />
             </div>
             <div className="lg:w-6/12 mt-8 lg:mt-0 w-full flex lg:justify-end justify-center">
-              <button className="rounded-lg bg-[#2B68E8] px-8 py-3 text-xl text-white duration-300 active:scale-95">
+              <button className="rounded-lg bg-[#2B68E8] px-8 py-3 text-lg 2xl:text-xl text-white duration-300 active:scale-95">
                 Post Comment
               </button>
             </div>
