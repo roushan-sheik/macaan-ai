@@ -1,14 +1,13 @@
-import Image from "next/image";
 import React from "react";
 import { Lists } from "./Lists";
+import Image from "next/image";
 
-const MobileSidebar = () => {
+const Drawer = () => {
   return (
-    <div>
-      {" "}
+    <div className="w-[270px]   bg-[#030A1A] backdrop-blur-lg ">
       <div className="min-w-[16.4375rem] mb-10">
         {/* logo box  */}
-        <div className="flex justify-center mx-auto ">
+        <div className="flex ml-8 ">
           <div>
             <Image
               className="mt-[1.875rem]"
@@ -22,7 +21,7 @@ const MobileSidebar = () => {
         {/* lists  */}
         <Lists />
         {/* horizontal line bar  */}
-        <div className="border-b-2 ml-8 mt-8 mb-4 border-[#383F4A] my-4"></div>
+        <div className="border-b-2 ml-8 mt-6 mb-4 border-[#383F4A] my-4"></div>
         {/* settings  */}
         <div
           className={`pl-[3.25rem] flex items-center mr-2  gap-5   py-4 cursor-pointer`}
@@ -40,4 +39,4 @@ const MobileSidebar = () => {
   );
 };
 
-export default MobileSidebar;
+export default Drawer;

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const DesktopNav = () => {
   return (
-    <div className="bg-[#FFFFFF] w-full shadow-lg flex justify-between items-center h-[4.75rem]  ">
+    <div className="bg-[#FFFFFF] w-full  shadow-lg flex justify-between items-center h-[4.75rem]  ">
       {/* customer support dropdown container */}
       <div>
         <div className="flex ml-8 cursor-pointer justify-between items-center bg-[#E3ECFF] border-2  h-[38px] px-3 border-[#BBCCFF] rounded-md bg-[##E3ECFF] w-[12.75rem]   ">

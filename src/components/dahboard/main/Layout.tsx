@@ -3,7 +3,7 @@ import RightSidebar from "../sidebar/RightSidebar";
 
 import ContentHeader from "@/components/UI/dashboard/main/ContentHeader";
 import DesktopNav from "@/components/UI/dashboard/main/navbar/DesktopNav";
-import MobileNav from "@/components/UI/dashboard/main/navbar/MobileNav";
+import SmallDevicesNav from "@/components/UI/dashboard/main/navbar/SmallDevicesNav";
 
 const MainContentLayout = ({ children }: { children: ReactNode }) => {
   return (
@@ -13,7 +13,7 @@ const MainContentLayout = ({ children }: { children: ReactNode }) => {
         <DesktopNav />
       </div>
       <div className="flex lg:hidden">
-        <MobileNav />
+        <SmallDevicesNav />
       </div>
       {/* content header  */}
       <ContentHeader />

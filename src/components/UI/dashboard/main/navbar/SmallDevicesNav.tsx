@@ -1,9 +1,9 @@
 "use client";
 import React, { useState } from "react";
 import Image from "next/image";
-import Drawer from "../../sidebar/Drawer";
+import Drawer from "../../sidebar/SmallDevicesSidebar";
 
-const MobileNav = () => {
+const SmallDevicesNav = () => {
   const [openDrawer, setOpenDrawer] = useState(false);
   return (
     <div className="bg-[#FFFFFF] shadow-lg w-full flex justify-between items-center h-[52px]  ">
@@ -11,18 +11,29 @@ const MobileNav = () => {
       <div>
         <div className="ml-3">
           {openDrawer ? (
-            ""
+            <Image
+              className=" "
+              onClick={() => setOpenDrawer(!openDrawer)}
+              src={"/icons/bars-off.png"}
+              width={22}
+              height={28}
+              alt="Icon"
+            />
           ) : (
             <Image
               onClick={() => setOpenDrawer(!openDrawer)}
               src={"/icons/bars-on.png"}
-              width={18}
-              height={26}
+              width={22}
+              height={28}
               alt="Icon"
             />
           )}
         </div>
-        <div className="absolute mt-4 ">
+        <div
+          className={`absolute mt-4 transition-all ease-in-out duration-150 ${
+            openDrawer ? "translate-x-[-3px]" : "translate-x-[-270px]"
+          } `}
+        >
           <Drawer />
         </div>
       </div>
@@ -61,4 +72,4 @@ const MobileNav = () => {
   );
 };
 
-export default MobileNav;
+export default SmallDevicesNav;

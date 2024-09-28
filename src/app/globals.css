@@ -17,3 +17,6 @@
   background-color: aqua;
   min-height: 100vh;
 }
+p {
+  font-size: 12px;
+}

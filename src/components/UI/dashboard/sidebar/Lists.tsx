@@ -4,16 +4,16 @@ import Image from "next/image";
 
 export const Lists = () => {
   return (
-    <div className="mb-2  text-white mt-[2.5rem] pl-8 flex flex-col">
+    <div className="lg:mb-2 mb-1  text-white lg:mt-[2.5rem]  mt[2rem] pl-8 flex flex-col">
       {sidebarList.map((list, index) => (
         <div
-          className={`flex items-center mr-2  gap-5 pl-5 py-4 cursor-pointer ${
+          className={`flex items-center mr-2  lg:gap-5 gap-3 pl-5 lg:py-4 py-3 cursor-pointer ${
             list.key === "Start Working" ? "bg-[#3062F9] rounded-[4px]" : ""
           }`}
           key={index}
         >
           <Image src={list.label as string} width={20} height={20} alt="Icon" />
-          <span>{list.key}</span>
+          <span className="text-xs lg:text-base">{list.key}</span>
         </div>
       ))}
     </div>
