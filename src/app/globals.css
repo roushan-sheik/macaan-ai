@@ -27,30 +27,19 @@
 p {
   font-size: 12px; /* Smaller font size for tablets */
 }
-/* Media query for tablets and smaller devices (max width 768px) */
-@media screen and (max-width: 768px) {
-  p {
-    font-size: 14px; /* Smaller font size for tablets */
-  }
-}
-
-/* Media query for mobile devices (max width 480px) */
-@media screen and (max-width: 480px) {
-  p {
-    font-size: 12px; /* Smaller font size for mobile devices */
-  }
-}
-
-/* Media query for large devices (min width 1024px) */
-@media screen and (min-width: 1024px) {
-  p {
-    font-size: 16px; /* Larger font size for desktops */
-  }
-}
 
 /* Media query for extra-large devices (min width 1440px) */
 @media screen and (min-width: 1440px) {
   p {
+    font-size: 16px; /* Even larger font size for very large screens */
+  }
+}
+h3 {
+  font-size: 14px;
+}
+/* Media query for extra-large devices (min width 1440px) */
+@media screen and (min-width: 1440px) {
+  h3 {
     font-size: 18px; /* Even larger font size for very large screens */
   }
 }

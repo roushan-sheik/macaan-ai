@@ -11,7 +11,10 @@ const UnsolvableQuestionForm = () => {
         </button>
       </div>
       {/* form box  */}
-      <form className="bg-[#FDFDFD]  border-[2px] border-[#F0F0F0] mt-3   rounded-[10px] p-2  ">
+      <form
+        action={"#"}
+        className="bg-[#FDFDFD]  border-[2px] border-[#F0F0F0] mt-3   rounded-[10px] p-2  "
+      >
         <div>
           <label htmlFor="question">Reason for Escalation</label>
           <input
