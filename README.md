@@ -7,7 +7,7 @@ To get started with this project, follow these steps:
 1. **Clone the Repository:**
 
    ```bash
-   https://github.com/roushan-sheik/macaan-ai.git
+   https://github.com/roushan-sheik/macaan-ai
    ```
 
 2. **Navigate to the Project Directory:**
