@@ -25,7 +25,7 @@
 }
 
 p {
-  font-size: 12px; /* Smaller font size for tablets */
+  font-size: 14px; /* Smaller font size for tablets */
 }
 
 /* Media query for extra-large devices (min width 1440px) */

@@ -13,7 +13,7 @@ export const Lists = () => {
           key={index}
         >
           <Image src={list.label as string} width={20} height={20} alt="Icon" />
-          <span className="text-xs lg:text-base">{list.key}</span>
+          <h3 className="">{list.key}</h3>
         </div>
       ))}
     </div>
