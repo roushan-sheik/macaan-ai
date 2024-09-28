@@ -1,6 +1,7 @@
 import ArchivedQuestions from "@/components/UI/dashboard/rightSidebar/ArchivedQuestions";
 import { DocumentAnswer } from "@/components/UI/dashboard/rightSidebar/DocumentAnswer";
 import Faqs from "@/components/UI/dashboard/rightSidebar/Faqs";
+import UnsolvableQuestionForm from "@/components/UI/dashboard/rightSidebar/UnsolvableQuestionForm";
 import React from "react";
 
 const RightSidebar = () => {
@@ -17,6 +18,8 @@ const RightSidebar = () => {
           <Faqs />
           <Faqs />
         </div>
+        {/* Unsolvable Question ===================> */}
+        <UnsolvableQuestionForm />
       </div>
     </>
   );

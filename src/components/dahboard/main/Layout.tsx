@@ -22,9 +22,9 @@ const MainContentLayout = ({ children }: { children: ReactNode }) => {
       <Container>
         <div className="flex flex-col lg:flex-row  justify-between ">
           {/* <<  main dynamic content  >> */}
-          <div className=" bg-[bg-#FFFFFF]   basis-[70%]"> {children}</div>
+          <div className=" bg-[bg-#FFFFFF]   basis-[65%]"> {children}</div>
           {/*  right sidebar   */}
-          <div className="bg-[#fff]  basis-[30%] ">
+          <div className="bg-[#fff]  basis-[35%] ">
             <RightSidebar />
           </div>
         </div>

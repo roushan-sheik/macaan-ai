@@ -14,7 +14,7 @@ const Faqs = () => {
             </h2>
             <span
               onClick={() => setShowFaq(!showFaq)}
-              className="cursor-pointer px-2 font-base font-semibold"
+              className="cursor-pointer text-[#3062F9] px-2 text-xl font-semibold"
             >
               {showFaq ? "-" : "+"}
             </span>
