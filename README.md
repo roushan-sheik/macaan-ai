@@ -1,6 +1,4 @@
-# Quick Start
-
-I have completed this project.
+# Quick Installation Guide
 
 ### **Getting Started**
 
